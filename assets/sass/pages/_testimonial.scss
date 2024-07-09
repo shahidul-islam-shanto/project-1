@@ -1,0 +1,244 @@
+$light-tomato: #fff7e7;
+$white: #ffffff;
+$black: #181818;
+$bg-color: #fffbf3;
+$text-color: #f95c19;
+$page-color: #817382;
+$searchBtn-color: #ffedc9;
+$cont-color: #ffe4d9;
+
+// testimonial section
+.testimonial-area {
+  background-color: $light-tomato;
+  .container {
+    .row {
+      padding: {
+        top: 1rem;
+        bottom: 1rem;
+      }
+
+      .card {
+        background-color: $light-tomato;
+        border: none;
+        margin-bottom: 3rem;
+        .header {
+          display: flex;
+          background-color: $light-tomato;
+          .img {
+            text-align: end;
+            padding: {
+              top: 2rem;
+              bottom: 1rem;
+              right: 2rem;
+            }
+
+            img {
+              width: 100px;
+              height: 100px;
+              object-fit: cover;
+            }
+          }
+          .text {
+            color: $text-color;
+            font-family: Oxanium;
+            font-size: 31.25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding: {
+              top: 1rem;
+              bottom: 1rem;
+            }
+
+            .first {
+              margin-left: 4rem;
+              color: $text-color;
+              font-family: Oxanium;
+              font-size: 31.25px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+            h3 {
+              margin-top: 0.6rem;
+              color: $black;
+              font-variant-numeric: lining-nums proportional-nums;
+              font-family: Raleway;
+              font-size: 39px;
+              font-style: normal;
+              font-weight: 800;
+              line-height: 110%;
+            }
+          }
+        }
+        .card-area {
+          border-radius: 16px;
+          background: $white;
+          box-shadow: 0px 0px 20px 5px rgba(0, 19, 119, 0.05);
+          padding: {
+            top: 2rem;
+            left: 2rem;
+            right: 2rem;
+          }
+          overflow: hidden;
+
+          .text {
+            h4 {
+              color: $text-color;
+              font-family: Raleway;
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 70%;
+            }
+            p {
+              color: #464558;
+              font-family: Raleway;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 145%;
+            }
+          }
+          .img-area {
+            .star {
+              margin-top: 0.5rem;
+            }
+            .imgs {
+              display: flex;
+              justify-content: end;
+              align-items: center;
+              .text {
+                h6 {
+                  color: #222132;
+                  text-align: right;
+                  font-family: Raleway;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 120%;
+                }
+              }
+              .img {
+                margin-left: 1rem;
+                padding-bottom: 1rem;
+                img {
+                  width: 61px;
+                  height: 61px;
+                  object-fit: cover;
+                  border-radius: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// request section
+.request-area {
+  background-color: $light-tomato;
+  .container {
+    .row {
+      .request {
+        .row {
+          .text-area {
+            padding: {
+              top: 4rem;
+              bottom: 2rem;
+            }
+            .img {
+              img {
+                width: 250px;
+                height: 240px;
+                margin-left: 3rem;
+                object-fit: cover;
+              }
+            }
+            .text {
+              h6 {
+                color: $text-color;
+                font-family: Oxanium;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 1rem;
+              }
+              h4 {
+                color: #222132;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-family: Raleway;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 110%;
+                margin-top: 1rem;
+              }
+              p {
+                color: var(--Gray-500, #9291a1);
+                font-family: Raleway;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+              }
+            }
+          }
+          .input-area {
+            padding: {
+              top: 4rem;
+              bottom: 2rem;
+            }
+            .input {
+              margin-top: 2rem;
+              input {
+                width: 100%;
+                height: 49px;
+                border-radius: 8px;
+                border: 2px solid #c5c5d2;
+                background-color: $light-tomato;
+                margin-bottom: 1rem;
+                padding: {
+                  top: 1px;
+                  left: 0.5rem;
+                }
+              }
+              textarea {
+                width: 100%;
+                height: 154px;
+                border-radius: 5px;
+                border: 2px solid #c5c5d2;
+                background: $light-tomato;
+                resize: none;
+                padding: {
+                  top: 0.5rem;
+                  left: 0.5rem;
+                }
+              }
+              .btn {
+                width: 100%;
+                border-radius: 5px;
+                background: var(--Theme-Colors-Danger, #f95c19);
+                margin-top: 3rem;
+                padding: 12px 20px;
+                color: #fff;
+                font-family: Raleway;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                i {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
