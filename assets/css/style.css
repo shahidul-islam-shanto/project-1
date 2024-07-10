@@ -1483,6 +1483,9 @@
   }
 }
 @media (max-width: 575px) {
+  .hero-header {
+    width: 100%;
+  }
   .hero-header .hero-container .hero-area {
     display: flex;
   }
@@ -1627,7 +1630,32 @@
   .request-area .container .row .request .row .text-area .text p {
     font-size: 16px;
   }
+  .find-area .container h5 {
+    font-size: 20px;
+  }
+  .find-area .container h3 {
+    font-size: 24px;
+  }
+  .find-area .container .row .text-next .text h4 {
+    font-size: 20px;
+  }
+  .find-area .container .row .text-next .text p span {
+    font-size: 14px;
+  }
+  .find-area .container .row .text-next .icon i {
+    font-size: 25px;
+  }
+  .find-area .container .row .btn {
+    height: 54px;
+  }
+  .find-area .container .row .btn span {
+    font-size: 15px;
+  }
+  .footer {
+    height: 35vh;
+  }
   .footer .container .header-footer .footer-text {
+    margin-top: 2.5rem;
     width: 40%;
   }
   .footer .container .header-footer .footer-text h3 {
@@ -1635,10 +1663,17 @@
   }
   .footer .container .header-footer .footer-input {
     width: 60%;
+    margin-top: 2.5rem;
   }
   .footer .container .header-footer .footer-input h6 {
     font-size: 14px;
     margin-bottom: 25px;
+  }
+  .footer .container .header-footer .footer-input .input input {
+    height: 40px;
+  }
+  .footer .container .header-footer .footer-input .input .btn {
+    height: 40px;
   }
   .footer-hero {
     height: auto;
@@ -1650,10 +1685,19 @@
     margin-bottom: 1rem;
   }
   .footer-hero .container .hero-container .icon-box .icon {
-    margin-top: 1rem;
+    margin-top: 1.3rem;
+  }
+  .footer-hero .container .hero-container .icon-box .icon img {
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+  }
+  .footer-hero .container .hero-container .icon-box .icon span {
+    font-size: 18px;
   }
   .footer-hero .container .hero-container .icon-box p {
-    margin-left: 1.5rem;
+    width: 150px;
+    font-size: 12px;
   }
   .footer-hero .container .hero-container .footer-manu {
     width: 70%;
@@ -1663,5 +1707,17 @@
   .footer-hero .container .hero-container .footer-manu .row .box {
     width: 20%;
     margin-left: 2rem;
+  }
+  .footer-hero .container .hero-container .footer-manu .row .box .card-text h5 {
+    font-size: 14px;
+  }
+  .footer-hero .container .hero-container .footer-manu .row .box .card-text ul li .text {
+    font-size: 11px;
+  }
+  .footer-down .container p {
+    font-size: 11px;
+  }
+  .footer-down .container p .foot {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
