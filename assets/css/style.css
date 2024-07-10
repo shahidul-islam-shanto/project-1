@@ -490,8 +490,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  margin-top: 2rem;
-  margin-left: 20rem;
+  text-align: center;
 }
 
 .testimonial-area {
@@ -862,20 +861,21 @@
     font-size: 20px;
   }
   .service-area .container .row .card .text p {
-    width: 100%;
-    font-size: 15px;
+    width: 84%;
+    font-size: 12px;
+    margin-left: 20px;
     padding-left: 10px;
     padding-right: 3px;
     padding-top: 0;
   }
   .service-area .container .row .card .text ul {
-    padding-left: 1.5rem;
+    padding-left: 2rem;
   }
   .service-area .container .row .card .text ul li {
-    margin-top: 4px;
+    margin-top: 10px;
   }
   .service-area .container .row .card .text ul li span {
-    font-size: 15px;
+    font-size: 13px;
   }
   .service-area .container .row .card .text .btn {
     width: 210px;
@@ -902,7 +902,7 @@
     font-size: 19px;
   }
   .video-area .container .video p {
-    margin-left: 13rem;
+    margin: auto;
   }
   .testimonial-area .container .row .card .header .img {
     width: 24%;
@@ -918,6 +918,19 @@
   }
   .testimonial-area .container .row .card .card-area .img-area .star {
     margin-top: 0;
+  }
+  .request-area .container .row .request .row .text-area .text h6 {
+    font-size: 20px;
+  }
+  .request-area .container .row .request .row .text-area .text h4 {
+    font-size: 30px;
+    margin-top: 0.5rem;
+  }
+  .request-area .container .row .request .row .text-area .text p {
+    font-size: 20px;
+  }
+  .request-area .container .row .request .row .input-area .input .btn {
+    margin-top: 1rem;
   }
   .find-area .container .row .text-next {
     height: auto;
@@ -941,9 +954,6 @@
   }
 }
 @media (max-width: 991px) {
-  .navber-content {
-    background-color: rgb(245, 208, 208);
-  }
   .navber-content .container .navber-brand {
     margin-top: 1.2rem;
     font-size: 25px;
@@ -1013,15 +1023,45 @@
     padding-top: 0;
   }
   .hero-header .hero-container .hero-area .text-area {
+    height: 250px;
+    padding-top: 4rem;
+    margin-top: 4rem;
+  }
+  .hero-header .hero-container .hero-area .text-area .text h2 {
+    font-size: 20px;
+  }
+  .hero-header .hero-container .hero-area .text-area .text p {
+    font-size: 14px;
+  }
+  .hero-header .hero-container .hero-area .text-area .text .btn {
+    width: 110px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .hero-header .hero-container .hero-area .img-area {
     height: 300px;
   }
+  .hero-header .hero-container .hero-area .img-area img {
+    width: 100%;
+    margin-left: 0;
+  }
   .service-area {
-    height: auto;
+    height: 320vh;
+  }
+  .service-area .container .first {
+    font-size: 25px;
+  }
+  .service-area .container h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .service-area .container .row {
+    width: 85%;
+    margin-left: 5rem;
   }
   .service-area .container .row .card {
     width: 90%;
-    padding: 3rem;
-    margin-left: 2rem;
+    padding: 2rem;
   }
   .service-area .container .row .card .icon-img {
     text-align: center;
@@ -1033,53 +1073,31 @@
     object-fit: cover;
   }
   .service-area .container .row .card .text h5 {
-    color: #464558;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    font-size: 30px;
   }
   .service-area .container .row .card .text p {
-    width: 500px;
-    margin: auto;
-    font-size: 18px;
-    font-weight: 500;
+    width: 418px;
+    font-size: 16px;
     padding-left: 2rem;
-    padding-top: 1rem;
-    padding-right: 2rem;
   }
   .service-area .container .row .card .text ul {
     font-size: 16px;
-    margin-left: 6rem;
+    margin-left: 2.5rem;
     margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .service-area .container .row .card .text ul li {
-    color: #7b7a8b;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-    color: #f95c19;
     margin-top: 1rem;
   }
   .service-area .container .row .card .text ul li span {
-    color: #7b7a8b;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
+    font-size: 16px;
   }
   .service-area .container .row .card .text .btn {
     width: 80%;
     padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid #f95c19;
-    margin-left: 3rem;
+    margin-left: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
     overflow: hidden;
@@ -1091,25 +1109,41 @@
     font-weight: bold;
   }
   .counter-area {
-    height: auto;
+    height: 40vh;
   }
-  .counter-area .container .row .card-count {
-    width: 100%;
-    margin-bottom: 1rem;
+  .counter-area .container .row {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    gap: 0;
   }
-  .counter-area .container .row .card-count .img-1 img {
-    width: 80px;
-    height: 80px;
+  .counter-area .container .row .count-area {
+    width: 18%;
   }
-  .counter-area .container .row .card-count .img img {
-    width: 60px;
-    height: 60px;
+  .counter-area .container .row .count-area .card-count {
+    width: 120px;
+    padding-top: 4px;
   }
-  .counter-area .container .row .card-count .text h3 {
-    font-size: 48px;
+  .counter-area .container .row .count-area .card-count .img-1 {
+    padding-top: 6px;
   }
-  .counter-area .container .row .card-count .text p {
-    font-size: 25px;
+  .counter-area .container .row .count-area .card-count .img-1 img {
+    width: 50px;
+    height: 50px;
+  }
+  .counter-area .container .row .count-area .card-count .img img {
+    width: 40px;
+    height: 40px;
+  }
+  .counter-area .container .row .count-area .card-count .text .ups {
+    font-size: 26px;
+    padding-top: 0;
+  }
+  .counter-area .container .row .count-area .card-count .text .plus {
+    font-size: 26px;
+    padding-top: 8px;
+  }
+  .counter-area .container .row .count-area .card-count .text p {
+    font-size: 10px;
   }
   .video-area {
     height: 75vh;
@@ -1126,7 +1160,7 @@
     font-size: 30px;
   }
   .video-area .container .video p {
-    margin-left: 7rem;
+    margin: auto;
     padding-bottom: 8rem;
   }
   .request-area .container .row .request .row .text-area {
@@ -1226,14 +1260,18 @@
   .hero-header {
     height: 55vh;
   }
+  .hero-header .hero-container .hero-area .text-area {
+    padding-top: 3rem;
+    margin-top: 0;
+  }
   .hero-header .hero-container .hero-area .text-area .text {
     width: 210px;
   }
   .hero-header .hero-container .hero-area .text-area .text h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .hero-header .hero-container .hero-area .text-area .text h2 .bolText {
-    font-size: 21px;
+    font-size: 18px;
   }
   .hero-header .hero-container .hero-area .text-area .text p {
     width: 200px;
@@ -1251,11 +1289,17 @@
     width: 100%;
     margin-left: 0;
   }
+  .service-area {
+    height: 300vh;
+  }
   .service-area .container .first {
     font-size: 25px;
   }
   .service-area .container h2 {
     font-size: 25px;
+  }
+  .service-area .container .row {
+    margin-left: 4rem;
   }
   .service-area .container .row .card {
     padding: 1rem;
@@ -1264,11 +1308,13 @@
     font-size: 25px;
   }
   .service-area .container .row .card .text p {
-    width: 100%;
-    font-size: 16px;
+    width: 311px;
+    font-size: 14px;
+    padding-left: 0;
+    margin-left: 1rem;
   }
   .service-area .container .row .card .text ul {
-    margin-left: 22px;
+    margin-left: 20px;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
@@ -1277,10 +1323,49 @@
     margin-top: 0.5rem;
   }
   .service-area .container .row .card .text ul li span {
-    font-size: 15px;
+    font-size: 14px;
   }
   .service-area .container .row .card .text .btn {
-    width: 75%;
+    width: 80%;
+    margin-left: 2rem;
+  }
+  .counter-area {
+    height: auto;
+  }
+  .counter-area .container .row {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    gap: 0;
+  }
+  .counter-area .container .row .count-area {
+    width: 100%;
+  }
+  .counter-area .container .row .count-area .card-count {
+    width: 200px;
+    height: auto;
+    margin: auto;
+  }
+  .counter-area .container .row .count-area .card-count .img-1 {
+    padding-top: 6px;
+  }
+  .counter-area .container .row .count-area .card-count .img-1 img {
+    width: 70px;
+    height: 70px;
+  }
+  .counter-area .container .row .count-area .card-count .img img {
+    width: 55px;
+    height: 55px;
+  }
+  .counter-area .container .row .count-area .card-count .text .ups {
+    font-size: 32px;
+    padding-top: 0;
+  }
+  .counter-area .container .row .count-area .card-count .text .plus {
+    font-size: 32px;
+    padding-top: 8px;
+  }
+  .counter-area .container .row .count-area .card-count .text p {
+    font-size: 20px;
   }
   .video-area .container .video {
     height: 315px;
@@ -1297,8 +1382,9 @@
   }
   .video-area .container .video p {
     width: 354px;
+    max-width: 90%;
     font-size: 15px;
-    margin-left: 5rem;
+    margin: auto;
     margin-top: 1rem;
   }
   .testimonial-area .container .row .card .header .img {
@@ -1315,7 +1401,8 @@
     font-size: 32px;
   }
   .request-area .container .row .request .row .text-area .img img {
-    width: 70%;
+    width: 50%;
+    height: auto;
     object-fit: cover;
     margin-left: 0;
   }
@@ -1323,11 +1410,11 @@
     margin-left: 0;
   }
   .request-area .container .row .request .row .text-area .text h6 {
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 5rem;
   }
   .request-area .container .row .request .row .text-area .text h4 {
-    font-size: 34px;
+    font-size: 30px;
     margin-left: 5rem;
   }
   .request-area .container .row .request .row .text-area .text p {
@@ -1396,33 +1483,185 @@
   }
 }
 @media (max-width: 575px) {
-  .hero-header {
-    background-color: rgb(234, 191, 191);
-  }
   .hero-header .hero-container .hero-area {
     display: flex;
   }
   .hero-header .hero-container .hero-area .text-area {
     width: 40%;
     height: 200px;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   .hero-header .hero-container .hero-area .text-area .text h2 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 3px;
   }
   .hero-header .hero-container .hero-area .text-area .text h2 .bolText {
-    font-size: 20px;
+    font-size: 17px;
   }
   .hero-header .hero-container .hero-area .text-area .text .btn {
+    width: 95px;
     font-size: 10px;
   }
   .hero-header .hero-container .hero-area .img-area {
     width: 60%;
   }
-}
-@media (max-width: 480px) {
-  .hero-header {
-    background-color: rgb(129, 235, 235);
+  .service-area {
+    height: 290vh;
+  }
+  .service-area .container .first {
+    font-size: 20px;
+  }
+  .service-area .container h2 {
+    font-size: 22px;
+    margin-bottom: 3px;
+  }
+  .service-area .container .row .card {
+    width: 90%;
+  }
+  .service-area .container .row .card .icon-img img {
+    width: 60px;
+    height: 74px;
+  }
+  .service-area .container .row .card .text h5 {
+    font-size: 22px;
+  }
+  .service-area .container .row .card .text p {
+    width: 270px;
+    font-size: 14px;
+  }
+  .service-area .container .row .card .text ul {
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+  .service-area .container .row .card .text ul li {
+    font-size: 20px;
+  }
+  .service-area .container .row .card .text ul li span {
+    font-size: 14px;
+  }
+  .service-area .container .row .card .text .btn {
+    width: 250px;
+    margin-left: 1.5rem;
+    font-size: 14px;
+  }
+  .service-area .container .row .card .text .btn:hover {
+    font-size: 14px;
+    background-color: #f95c19;
+    color: #ffffff;
+  }
+  .counter-area .container .row .card-count .img-1 img {
+    width: 65px;
+    height: 66px;
+  }
+  .counter-area .container .row .card-count .img img {
+    width: 45px;
+    height: 45px;
+  }
+  .counter-area .container .row .card-count .text .ups {
+    font-size: 40px;
+  }
+  .counter-area .container .row .card-count .text .plus {
+    font-size: 40px;
+    padding-top: 1rem;
+  }
+  .counter-area .container .row .card-count .text p {
+    font-size: 20px;
+  }
+  .testimonial-area .container .row {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .testimonial-area .container .row .card .header .img {
+    width: 20%;
+  }
+  .testimonial-area .container .row .card .header .img img {
+    width: 60px;
+    height: 60px;
+  }
+  .testimonial-area .container .row .card .header .text {
+    width: 80%;
+  }
+  .testimonial-area .container .row .card .header .text .first {
+    font-size: 20px;
+  }
+  .testimonial-area .container .row .card .header .text h3 {
+    font-size: 25px;
+    margin-top: 8px;
+  }
+  .testimonial-area .container .row .card .card-area .text h4 {
+    font-size: 17px;
+  }
+  .testimonial-area .container .row .card .card-area .text p {
+    font-size: 12px;
+  }
+  .testimonial-area .container .row .card .card-area .img-area .tops {
+    width: 50%;
+  }
+  .testimonial-area .container .row .card .card-area .img-area .tops .star {
+    font-size: 10px;
+    margin-top: 0.5rem;
+  }
+  .testimonial-area .container .row .card .card-area .img-area .tops .star svg {
+    font-size: 10px;
+  }
+  .testimonial-area .container .row .card .card-area .img-area .down {
+    width: 50%;
+  }
+  .testimonial-area .container .row .card .card-area .img-area .down .imgs .text h6 {
+    font-size: 14px;
+  }
+  .testimonial-area .container .row .card .card-area .img-area .down .imgs .text p {
+    font-size: 10px;
+  }
+  .testimonial-area .container .row .card .card-area .img-area .down .imgs .img img {
+    width: 40px;
+    height: 40px;
+  }
+  .request-area .container .row .request .row .text-area .text h6 {
+    font-size: 18px;
+  }
+  .request-area .container .row .request .row .text-area .text h4 {
+    width: 270px;
+    font-size: 25px;
+  }
+  .request-area .container .row .request .row .text-area .text p {
+    font-size: 16px;
+  }
+  .footer .container .header-footer .footer-text {
+    width: 40%;
+  }
+  .footer .container .header-footer .footer-text h3 {
+    font-size: 14px;
+  }
+  .footer .container .header-footer .footer-input {
+    width: 60%;
+  }
+  .footer .container .header-footer .footer-input h6 {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .footer-hero {
+    height: auto;
+  }
+  .footer-hero .container .hero-container .icon-box {
+    width: 30%;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .footer-hero .container .hero-container .icon-box .icon {
+    margin-top: 1rem;
+  }
+  .footer-hero .container .hero-container .icon-box p {
+    margin-left: 1.5rem;
+  }
+  .footer-hero .container .hero-container .footer-manu {
+    width: 70%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer-hero .container .hero-container .footer-manu .row .box {
+    width: 20%;
+    margin-left: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */

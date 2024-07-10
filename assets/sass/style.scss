@@ -180,18 +180,20 @@ $footer-color: #222132;
               font-size: 20px;
             }
             p {
-              width: 100%;
-              font-size: 15px;
+              width: 84%;
+              font-size: 12px;
+              margin-left: 20px;
+
               padding-left: 10px;
               padding-right: 3px;
               padding-top: 0;
             }
             ul {
-              padding-left: 1.5rem;
+              padding-left: 2rem;
               li {
-                margin-top: 4px;
+                margin-top: 10px;
                 span {
-                  font-size: 15px;
+                  font-size: 13px;
                 }
               }
             }
@@ -237,7 +239,7 @@ $footer-color: #222132;
     .container {
       .video {
         p {
-          margin-left: 13rem;
+          margin: auto;
         }
       }
     }
@@ -268,6 +270,39 @@ $footer-color: #222132;
             .img-area {
               .star {
                 margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // request section start
+  .request-area {
+    .container {
+      .row {
+        .request {
+          .row {
+            .text-area {
+              .text {
+                h6 {
+                  font-size: 20px;
+                }
+                h4 {
+                  font-size: 30px;
+                  margin-top: 0.5rem;
+                }
+                p {
+                  font-size: 20px;
+                }
+              }
+            }
+            .input-area {
+              .input {
+                .btn {
+                  margin-top: 1rem;
+                }
               }
             }
           }
@@ -312,7 +347,6 @@ $footer-color: #222132;
 @media (max-width: 991px) {
   // navber section start
   .navber-content {
-    background-color: rgb(245, 208, 208);
     .container {
       .navber-brand {
         margin-top: 1.2rem;
@@ -394,7 +428,31 @@ $footer-color: #222132;
         padding-top: 0;
 
         .text-area {
+          height: 250px;
+          padding-top: 4rem;
+          margin-top: 4rem;
+
+          .text {
+            h2 {
+              font-size: 20px;
+            }
+            p {
+              font-size: 14px;
+            }
+            .btn {
+              width: 110px;
+              height: 35px;
+              font-size: 12px;
+            }
+          }
+        }
+        .img-area {
           height: 300px;
+
+          img {
+            width: 100%;
+            margin-left: 0;
+          }
         }
       }
     }
@@ -402,13 +460,21 @@ $footer-color: #222132;
 
   // service section start
   .service-area {
-    height: auto;
+    height: 320vh;
     .container {
+      .first {
+        font-size: 25px;
+      }
+      h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+      }
       .row {
+        width: 85%;
+        margin-left: 5rem;
         .card {
           width: 90%;
-          padding: 3rem;
-          margin-left: 2rem;
+          padding: 2rem;
 
           .icon-img {
             text-align: center;
@@ -421,50 +487,26 @@ $footer-color: #222132;
           }
           .text {
             h5 {
-              color: #464558;
-              text-align: center;
-              font-family: Raleway;
-              font-size: 35px;
-              font-style: normal;
-              font-weight: 800;
-              line-height: normal;
+              font-size: 30px;
             }
             p {
-              width: 500px;
-              margin: auto;
-              font-size: 18px;
-              font-weight: 500;
-              padding: {
-                left: 2rem;
-                top: 1rem;
-                right: 2rem;
-              }
+              width: 418px;
+              font-size: 16px;
+              padding-left: 2rem;
             }
             ul {
               font-size: 16px;
               margin: {
-                left: 6rem;
+                left: 2.5rem;
                 top: 1.5rem;
-                bottom: 2rem;
+                bottom: 1rem;
               }
 
               li {
-                color: #7b7a8b;
-                font-family: Raleway;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 120%;
-                color: $text-color;
                 margin-top: 1rem;
 
                 span {
-                  color: #7b7a8b;
-                  font-family: Raleway;
-                  font-size: 18px;
-                  font-style: normal;
-                  font-weight: 500;
-                  line-height: 120%;
+                  font-size: 16px;
                 }
               }
             }
@@ -474,7 +516,7 @@ $footer-color: #222132;
               border-radius: 5px;
               border: 1px solid $text-color;
               margin: {
-                left: 3rem;
+                left: 2.5rem;
                 top: 2rem;
                 bottom: 1.5rem;
               }
@@ -494,39 +536,84 @@ $footer-color: #222132;
 
   // counter section start
   .counter-area {
-    height: auto;
-
+    height: 40vh;
     .container {
       .row {
-        .card-count {
-          width: 100%;
-          margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        gap: 0;
+        .count-area {
+          width: 18%;
+          .card-count {
+            width: 120px;
+            padding-top: 4px;
+            .img-1 {
+              padding-top: 6px;
+              img {
+                width: 50px;
+                height: 50px;
+              }
+            }
 
-          .img-1 {
-            img {
-              width: 80px;
-              height: 80px;
+            .img {
+              img {
+                width: 40px;
+                height: 40px;
+              }
             }
-          }
-          .img {
-            img {
-              width: 60px;
-              height: 60px;
-            }
-          }
-
-          .text {
-            h3 {
-              font-size: 48px;
-            }
-            p {
-              font-size: 25px;
+            .text {
+              .ups {
+                font-size: 26px;
+                padding-top: 0;
+              }
+              .plus {
+                font-size: 26px;
+                padding-top: 8px;
+              }
+              p {
+                font-size: 10px;
+              }
             }
           }
         }
       }
     }
   }
+  // // counter section start
+  // .counter-area {
+  //   height: auto;
+
+  //   .container {
+  //     .row {
+  //       .card-count {
+  //         width: 100%;
+  //         margin-bottom: 1rem;
+
+  //         .img-1 {
+  //           img {
+  //             width: 80px;
+  //             height: 80px;
+  //           }
+  //         }
+  //         .img {
+  //           img {
+  //             width: 60px;
+  //             height: 60px;
+  //           }
+  //         }
+
+  //         .text {
+  //           h3 {
+  //             font-size: 48px;
+  //           }
+  //           p {
+  //             font-size: 25px;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
   // video section start
   .video-area {
@@ -544,7 +631,7 @@ $footer-color: #222132;
           font-size: 30px;
         }
         p {
-          margin-left: 7rem;
+          margin: auto;
           padding-bottom: 8rem;
         }
       }
@@ -713,12 +800,15 @@ $footer-color: #222132;
     .hero-container {
       .hero-area {
         .text-area {
+          padding-top: 3rem;
+          margin-top: 0;
           .text {
             width: 210px;
+
             h2 {
-              font-size: 20px;
+              font-size: 18px;
               .bolText {
-                font-size: 21px;
+                font-size: 18px;
               }
             }
             p {
@@ -745,6 +835,7 @@ $footer-color: #222132;
 
   // service section start
   .service-area {
+    height: 300vh;
     .container {
       .first {
         font-size: 25px;
@@ -753,6 +844,7 @@ $footer-color: #222132;
         font-size: 25px;
       }
       .row {
+        margin-left: 4rem;
         .card {
           padding: 1rem;
 
@@ -761,11 +853,13 @@ $footer-color: #222132;
               font-size: 25px;
             }
             p {
-              width: 100%;
-              font-size: 16px;
+              width: 311px;
+              font-size: 14px;
+              padding-left: 0;
+              margin-left: 1rem;
             }
             ul {
-              margin-left: 22px;
+              margin-left: 20px;
               margin-top: 0.5rem;
               margin-bottom: 1rem;
 
@@ -773,12 +867,61 @@ $footer-color: #222132;
                 font-size: 22px;
                 margin-top: 0.5rem;
                 span {
-                  font-size: 15px;
+                  font-size: 14px;
                 }
               }
             }
             .btn {
-              width: 75%;
+              width: 80%;
+              margin-left: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // counter section start
+  .counter-area {
+    height: auto;
+    .container {
+      .row {
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        gap: 0;
+        .count-area {
+          width: 100%;
+          .card-count {
+            width: 200px;
+            height: auto;
+            margin: auto;
+
+            .img-1 {
+              padding-top: 6px;
+              img {
+                width: 70px;
+                height: 70px;
+              }
+            }
+
+            .img {
+              img {
+                width: 55px;
+                height: 55px;
+              }
+            }
+            .text {
+              .ups {
+                font-size: 32px;
+                padding-top: 0;
+              }
+              .plus {
+                font-size: 32px;
+                padding-top: 8px;
+              }
+              p {
+                font-size: 20px;
+              }
             }
           }
         }
@@ -803,8 +946,10 @@ $footer-color: #222132;
         }
         p {
           width: 354px;
+          max-width: 90%;
           font-size: 15px;
-          margin-left: 5rem;
+          margin: auto;
+
           margin-top: 1rem;
         }
       }
@@ -847,7 +992,8 @@ $footer-color: #222132;
             .text-area {
               .img {
                 img {
-                  width: 70%;
+                  width: 50%;
+                  height: auto;
                   object-fit: cover;
                   margin-left: 0;
                 }
@@ -855,11 +1001,11 @@ $footer-color: #222132;
               .text {
                 margin-left: 0;
                 h6 {
-                  font-size: 22px;
+                  font-size: 20px;
                   margin-left: 5rem;
                 }
                 h4 {
-                  font-size: 34px;
+                  font-size: 30px;
                   margin-left: 5rem;
                 }
                 p {
@@ -983,27 +1129,27 @@ $footer-color: #222132;
 }
 
 @media (max-width: 575px) {
+  // hero section start
   .hero-header {
-    background-color: rgb(234, 191, 191);
-
     .hero-container {
       .hero-area {
         display: flex;
         .text-area {
           width: 40%;
           height: 200px;
-          margin-top: 4rem;
+          margin-top: 2rem;
 
           .text {
             h2 {
-              font-size: 18px;
+              font-size: 16px;
               margin-bottom: 3px;
 
               .bolText {
-                font-size: 20px;
+                font-size: 17px;
               }
             }
             .btn {
+              width: 95px;
               font-size: 10px;
             }
           }
@@ -1014,10 +1160,250 @@ $footer-color: #222132;
       }
     }
   }
+
+  // service section start
+  .service-area {
+    height: 290vh;
+    .container {
+      .first {
+        font-size: 20px;
+      }
+      h2 {
+        font-size: 22px;
+        margin-bottom: 3px;
+      }
+      .row {
+        .card {
+          width: 90%;
+
+          .icon-img {
+            img {
+              width: 60px;
+              height: 74px;
+            }
+          }
+          .text {
+            h5 {
+              font-size: 22px;
+            }
+            p {
+              width: 270px;
+              font-size: 14px;
+            }
+            ul {
+              margin-left: 5px;
+              margin-top: 2px;
+
+              li {
+                font-size: 20px;
+                span {
+                  font-size: 14px;
+                }
+              }
+            }
+            .btn {
+              width: 250px;
+              margin-left: 1.5rem;
+              font-size: 14px;
+
+              &:hover {
+                font-size: 14px;
+                background-color: $text-color;
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // counter section start
+  .counter-area {
+    .container {
+      .row {
+        .card-count {
+          .img-1 {
+            img {
+              width: 65px;
+              height: 66px;
+            }
+          }
+
+          .img {
+            img {
+              width: 45px;
+              height: 45px;
+            }
+          }
+          .text {
+            .ups {
+              font-size: 40px;
+            }
+            .plus {
+              font-size: 40px;
+              padding-top: 1rem;
+            }
+            p {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // testimonial section start
+  .testimonial-area {
+    .container {
+      .row {
+        padding-top: 0;
+        padding-bottom: 0;
+        .card {
+          .header {
+            .img {
+              width: 20%;
+              img {
+                width: 60px;
+                height: 60px;
+              }
+            }
+            .text {
+              width: 80%;
+              .first {
+                font-size: 20px;
+              }
+              h3 {
+                font-size: 25px;
+                margin-top: 8px;
+              }
+            }
+          }
+          .card-area {
+            .text{
+              h4{
+                font-size: 17px;
+              }
+              p{
+                font-size: 12px;
+              }
+            }
+            .img-area {
+              .tops {
+                width: 50%;
+                .star {
+                  font-size: 10px;
+                  margin-top: 0.5rem;
+
+                  svg{
+                    font-size: 10px;
+                  }
+                }
+              }
+              .down {
+                width: 50%;
+                .imgs{
+                  .text{
+                    h6{
+                      font-size: 14px;
+                    }
+                    p{
+                      font-size: 10px;
+                    }
+                  }
+                  .img{
+                    img{
+                      width: 40px;
+                      height: 40px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // request section start
+  .request-area{
+    .container{
+      .row{
+        .request{
+          .row{
+            .text-area{
+              .text{
+                h6{
+                  font-size: 18px;
+                }
+                h4{
+                  width: 270px;
+                  font-size: 25px;
+                }
+                p{
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // footer section start
+  .footer {
+    .container {
+      .header-footer {
+        .footer-text {
+          width: 40%;
+          h3 {
+            font-size: 14px;
+          }
+        }
+        .footer-input {
+          width: 60%;
+          h6 {
+            font-size: 14px;
+            margin-bottom: 25px;
+          }
+        }
+      }
+    }
+  }
+  .footer-hero {
+    height: auto;
+    .container {
+      .hero-container {
+        .icon-box {
+          width: 30%;
+          height: 100px;
+          margin-top: 0;
+          margin-bottom: 1rem;
+          .icon {
+            margin-top: 1rem;
+          }
+          p {
+            margin-left: 1.5rem;
+          }
+        }
+        .footer-manu {
+          width: 70%;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+
+          .row {
+            .box {
+              width: 20%;
+              margin-left: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 480px) {
-  .hero-header {
-    background-color: rgb(129, 235, 235);
-  }
 }
